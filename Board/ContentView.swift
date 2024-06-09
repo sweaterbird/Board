@@ -80,7 +80,6 @@ struct ContentView: View {
                 
                 Spacer()
                 
-                
                     Text(phrase.content)
                         .font(.custom("George", size: 50))
                         .foregroundColor(isPhrasePressed ? .mint : .primary)
